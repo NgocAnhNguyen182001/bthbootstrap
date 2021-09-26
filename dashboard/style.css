@@ -1,0 +1,44 @@
+/* css for all */
+.text-al{
+    text-align: center;
+}
+.text-pink{
+  color: #ff4757 !important;
+}
+.nav-item a:hover{
+color: red !important;
+ }
+ .pa-top-40{
+     padding-top: 40px !important;
+ }
+ .mar-top-60{
+     margin-top: 60px;
+ }
+/* css for header */
+.bo-he{
+    border-bottom: 2px solid #ccc ;
+}
+.bg-content{
+    background-color: #ececec;
+}
+.font-w{
+    font-weight: 700;
+}
+.pad-box{
+    padding: 20px;
+}
+.pad-bot{
+    padding-bottom: 50px;
+}
+/* css for footer */
+.bg-footer{
+    background-color: #ff4757;
+    color: #fff;
+}
+/* css for mobile */
+@media (max-width: 740px) {
+    .h1 {
+        text-align: center;
+    }
+    
+}

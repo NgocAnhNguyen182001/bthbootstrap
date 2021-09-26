@@ -1,0 +1,181 @@
+/* css for all */
+.pad-8{
+    padding: 8px;
+}
+.bo-none{
+    border: none;
+}
+
+.mar-bot-20{
+    margin-bottom: 20px;
+}
+.wid-col{
+    width: 47%;
+    margin: 8px;
+}
+.fo-price{
+    font-weight: 700 !important;
+}
+.ma-ce{
+    margin: 0 auto !important;
+}
+.clear-fix{
+    clear: both;
+}
+.bg-white{
+    background-color: white;
+}
+.pad-img{
+    padding: 18%;
+}
+.fl-le{
+    float: left;
+}
+.col-md-6.bo-se{
+    border: 1px solid red !important;
+}
+.pad-none{
+    padding: 0px !important;
+}
+.pad-top-40{
+    padding-top: 40px;
+}
+.head-text{
+    font-size: 32px;
+}
+.mar-top-26{
+margin-top: 26px;
+}
+.mar-top-60{
+    margin-top: 60px;
+}
+.mar-top-40{
+    margin-top: 40px;
+}
+.text-align{
+    text-align: center;
+}
+.bo-ra-btn{
+    border-radius: 4px !important;
+    border: none;
+}
+.font-btn{
+    color: white;
+    background-color: #ff4757;
+}
+.width-40{
+    width: 40%;
+}
+.pad-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.text-pink{
+    color: #ff4757;
+}
+.nav-item a:hover{
+    color: red !important;
+}
+.tag a{
+    text-decoration: none;
+}
+.tag a:hover{
+    color: red;
+}
+.nav{
+    margin-top: 30px;
+}
+.po-rel{
+    position: relative;
+}
+.none-row-width{
+    width: 50% !important;
+}
+.po-fix{
+    position:fixed ;
+    background-color:#fff
+    ;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom:0;
+
+}
+.po-ab{
+    position:absolute;
+}
+.dis-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-btn.po-ab{
+    text-align: center;
+    margin-top: 8%;
+}
+/* css for food menu */
+h5.card-title.po-ab {
+    margin-left: 40%;
+    margin-top: 100%;
+}
+.bg-foodmenu{
+    background-color: #ececec;
+}
+.pad-radi{
+    padding: 20px !important;
+    border-radius: 32px !important;
+}
+.sub-menu{
+    margin-top: 12px;
+    margin-bottom: 40px;
+    color: #ff4757;
+    font-size: 24px;
+    cursor: pointer
+    
+}
+.food-detail{
+    color: #747d8c;
+}
+.bo-ra-menuimg{
+    border-radius: 40px !important;
+}
+
+.bor-ra-menu-se{
+border-radius: 15px;
+}
+.tag-icon{
+    font-size: 40px;
+    padding: 15px;
+}
+.tag{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.order-section{
+    display: none;
+}
+/* responsive */
+
+@media  (max-width: 740px) {
+    .col-md-6{
+        text-align:center;
+    }
+    .nav{
+        margin: 0;
+    }
+    .search-btn.po-ab {
+        text-align: center;
+        margin-top: 5%;
+    }
+    .card.bg-dark.text-white.po-rel.bo-none {
+        margin: 10px;
+    }
+    .wid-col {
+        width: 45%;
+        margin: 8px;
+    }
+    .body{
+        overflow: hidden;
+    }
+}
